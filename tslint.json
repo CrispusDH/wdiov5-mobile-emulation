@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "tslint-xo/space"
+  ],
+  "rules": {
+    "no-implicit-dependencies": [false],
+    "await-promise": false
+  }
+}
