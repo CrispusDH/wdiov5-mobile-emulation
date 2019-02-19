@@ -1,9 +1,9 @@
 import {Element} from 'webdriverio';
 
 export class Google {
-  // Private readonly input: Element<void>;
+  // Private readonly input: Element;
 
-  async input(): Promise<Element<void>> {
+  async input(): Promise<Element> {
     return $('abc');
   }
 
