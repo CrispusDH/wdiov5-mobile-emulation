@@ -14,6 +14,7 @@ exports.config = {
         '--disable-setuid-sandbox',
         '--window-size=380,800'
       ],
+      // Mobile emulation - http://chromedriver.chromium.org/mobile-emulation
       //
       // Option #1
       // mobileEmulation: {
