@@ -15,6 +15,7 @@ exports.config = {
         '--window-size=380,800'
       ],
       // Mobile emulation - http://chromedriver.chromium.org/mobile-emulation
+      // List of emulated devices - https://codesearch.chromium.org/chromium/src/third_party/blink/renderer/devtools/front_end/emulated_devices/module.json?g=0&l=453
       //
       // Option #1
       // mobileEmulation: {
