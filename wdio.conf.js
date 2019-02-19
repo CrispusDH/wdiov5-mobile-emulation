@@ -14,8 +14,22 @@ exports.config = {
         '--disable-setuid-sandbox',
         '--window-size=380,800'
       ],
+      //
+      // Option #1
+      // mobileEmulation: {
+      //   deviceName: 'iPhone 7'
+      // }
+      //
+      // Option #2
       mobileEmulation: {
-        deviceName: 'iPhone 7'
+        deviceMetrics: {
+          width: 380,
+          height: 800,
+          pixelRatio: 3.0
+        },
+        // list of user agents https://deviceatlas.com/blog/list-of-user-agent-strings
+        userAgent: "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+
       }
     }
   }],
