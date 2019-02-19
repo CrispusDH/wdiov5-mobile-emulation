@@ -12,7 +12,7 @@ exports.config = {
         '--enable-automation',
         '--disable-gpu',
         '--disable-setuid-sandbox',
-        '--window-size=380,800'
+        '--window-size=420,800'
       ],
       // Mobile emulation - http://chromedriver.chromium.org/mobile-emulation
       // List of emulated devices - https://codesearch.chromium.org/chromium/src/third_party/blink/renderer/devtools/front_end/emulated_devices/module.json?g=0&l=453
@@ -25,12 +25,12 @@ exports.config = {
       // Option #2
       mobileEmulation: {
         deviceMetrics: {
-          width: 380,
-          height: 800,
-          pixelRatio: 3.0
+          width: 412,
+          height: 732,
+          pixelRatio: 3.5
         },
         // list of user agents https://deviceatlas.com/blog/list-of-user-agent-strings
-        userAgent: "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+        userAgent: "Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36"
 
       }
     }
